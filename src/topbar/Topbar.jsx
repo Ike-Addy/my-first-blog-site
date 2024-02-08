@@ -1,4 +1,4 @@
-import './topbar.css';
+import './topbar.css'
 import profilePic from '../assets/profilepic.png'
 
 export default function Topbar() {
