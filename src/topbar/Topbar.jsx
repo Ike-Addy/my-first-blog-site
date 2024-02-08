@@ -1,4 +1,5 @@
-import './topbar.css'
+import './topbar.css';
+import profilePic from '../assets/profilepic.png'
 
 export default function Topbar() {
   return (
@@ -22,11 +23,7 @@ export default function Topbar() {
             </ul>
         </div>
         <div className="topRight">
-            <img
-                className='topImage'
-                src="../profilepic.jpg" 
-                alt="sexy smiling black man with a short afro, glasses, and a blue shirt holding a black plastic fork" 
-            />
+            <img src={profilePic} alt="" className="topImage" />
             <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
