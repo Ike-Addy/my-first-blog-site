@@ -1,5 +1,5 @@
 import './topbar.css'
-import profilePic from '../assets/profilepic.png'
+import profilePic from '../../assets/profilepic.png'
 
 export default function Topbar() {
   return (

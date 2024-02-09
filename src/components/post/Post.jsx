@@ -1,5 +1,5 @@
 import './post.css';
-import computer from '../assets/computer.png';
+import computer from '../../assets/computer.png';
 
 export default function Post() {
   return (
