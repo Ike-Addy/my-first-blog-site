@@ -5,8 +5,10 @@ export default function Write() {
     <div className='write'>
         <form className='writeForm'>
             <div className="writeFormGroup">
-                <label htmlFor="fileInput"></label>
-                <input type="file" id="fileInput" />
+                <label htmlFor="fileInput">
+                  <i class="fa-solid fa-plus"></i>
+                </label>
+                <input type="file" id="fileInput" className='chooseFile'/>
                 <input type="text" placeholder='Title'/>
             </div>
         </form>    
