@@ -8,7 +8,7 @@
         rgba(255,255,255,0.5),
         rgba(255,255,255,0.5)
     ), 
-        url('../../assets/house-in-snowy-mountains.png');
+        url('../../assets/autumn-background.png');
         background-size: cover;
 }
 
@@ -24,6 +24,8 @@
 
 .registerForm > label {
     margin: 10px 0;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 .registerInput {
@@ -36,7 +38,7 @@
 .registerButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     padding: 10px;
@@ -48,7 +50,7 @@
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: lightcoral;
     cursor: pointer;
     border: none;
     color: white;
